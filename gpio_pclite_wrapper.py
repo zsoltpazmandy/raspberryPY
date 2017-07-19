@@ -77,11 +77,11 @@ test_pattern = ['01111111111111',
                 '01111111111111',
                 '01111111111111']
 
-if len(sys.argv) != 1:
-    print "Usage: gpio_pclite_wrapper.py 01111111111111011111111111110000000000111000000000111000000000111000000000" \
-          "1110000000001110000000000111111111111101111111111111"
+if len(sys.argv) != 2:
+    print "Invalid number of arguments: " + str(len(sys.argv))
+         
 else:
     init()
     flash_screen()
-    map_to_display(sys.argv[0])
+    map_to_display(sys.argv[1])
 
