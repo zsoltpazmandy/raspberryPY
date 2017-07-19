@@ -66,17 +66,6 @@ def stringify(matrix):
             .replace("'", "")
     return string
 
-
-test_pattern = ['01111111111111',
-                '01111111111111',
-                '00000000001110',
-                '00000000111000',
-                '00000011100000',
-                '00001110000000',
-                '00111000000000',
-                '01111111111111',
-                '01111111111111']
-
 if len(sys.argv) != 2:
     print "Invalid number of arguments: " + str(len(sys.argv))
          
