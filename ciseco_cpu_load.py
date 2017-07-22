@@ -60,4 +60,4 @@ init()
 flash_screen()
 while True:
     display_load(get_cpu_load())
-    time.sleep(0.1);
+    time.sleep(0.1)
